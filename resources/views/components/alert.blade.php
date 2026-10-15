@@ -1,0 +1,1 @@
+@props(['variant'=>'danger','title'=>null])<div {{ $attributes->merge(['class'=>'alert alert-'.$variant,'role'=>$variant==='danger'?'alert':'status']) }}><x-icon :name="$variant==='danger'?'alert':'check-circle'"/><div>@if($title)<strong>{{ $title }}</strong>@endif{{ $slot }}</div></div>

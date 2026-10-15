@@ -1,0 +1,29 @@
+{
+  "name": "alat-vra",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i resources/css/tailwind.css -o public/assets/tailwind.css --minify && node scripts/build-assets.mjs",
+    "dev": "npm run build",
+    "production": "npm run build",
+    "test:motion": "node scripts/test-motion.mjs",
+    "test:web": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@inertiajs/react": "^1.3.0",
+    "@popperjs/core": "2.11.8",
+    "bootstrap": "5.3.8",
+    "chart.js": "4.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@testing-library/react": "^16.3.0",
+    "esbuild": "^0.28.2",
+    "jsdom": "^26.1.0",
+    "tailwindcss": "^4.3.3",
+    "vitest": "^5.0.4"
+  }
+}

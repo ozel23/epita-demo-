@@ -1,0 +1,1 @@
+@props(['message'])<div class="app-toast" role="status" data-toast><span class="toast-icon"><x-icon name="check-circle"/></span><div><strong>Berhasil</strong><p>{{ $message }}</p></div><button type="button" class="icon-button" aria-label="Tutup notifikasi" data-dismiss-toast><x-icon name="close"/></button></div>

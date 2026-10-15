@@ -1,0 +1,1 @@
+<div {{ $attributes->merge(['class'=>'table-responsive']) }} tabindex="0" role="region" aria-label="Tabel data"><table class="table">{{ $slot }}</table></div>

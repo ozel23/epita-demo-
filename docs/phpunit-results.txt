@@ -1,0 +1,52 @@
+PHPUnit 9.6.38 by Sebastian Bergmann and contributors.
+
+Export Safety (Tests\Unit\ExportSafety)
+ ✔ Sap identifiers and formula text remain strings
+ ✔ Csv formula injection is escaped
+
+Report Calculator (Tests\Unit\ReportCalculator)
+ ✔ Decimal meter calculation is exact
+ ✔ Zero denominator has no fuel ratio
+ ✔ Meter rejects excess decimal precision
+ ✔ Explicit next day duration
+
+Example (Tests\Feature\Example)
+ ✔ Example
+
+Operational (Tests\Feature\Operational)
+ ✔ Login redirect and inactive rejected
+ ✔ Calculation and cross midnight
+ ✔ Invalid meter rejected
+ ✔ Plant scope blocks cross plant
+ ✔ Master permissions and crud
+ ✔ Assignment conflict is rejected
+ ✔ Return revise verify approve and freeze
+ ✔ Operator cannot approve
+ ✔ Double approval is rejected
+ ✔ Breakdown maintenance release
+ ✔ Sap staging errors duplicates and raw preserved
+ ✔ Sap reconciliation matched mismatch only local and only sap
+ ✔ Export filters and dashboard real values
+ ✔ All pages render for authorized roles
+ ✔ Api login and scoped read
+ ✔ Approved revision preserves snapshot and recalculates meter
+ ✔ Return requires note
+ ✔ Self approval is forbidden even with permission
+ ✔ Meter override requires permission and reason
+ ✔ Duplicate report interval rejected
+ ✔ Photo required and private attachment scoped
+ ✔ Upload rejects executable disguised as image
+ ✔ Admin does not have approval permission
+ ✔ Queue export scopes and private download
+ ✔ Sap http csv import and template
+ ✔ Reconciliation date and mapping exceptions
+ ✔ Dashboard date filter and export plant filter
+ ✔ Overdue notifications are not duplicated
+ ✔ Role assignment and user scope
+ ✔ Soft deleted master retains report history
+ ✔ Report date serializes without timezone shift
+ ✔ All report types respect explicit plant filter
+
+Time: 00:02.780, Memory: 66.50 MB
+
+OK (39 tests, 156 assertions)

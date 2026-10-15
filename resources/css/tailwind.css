@@ -1,0 +1,7 @@
+@import "tailwindcss" source("../js");
+@theme {
+  --color-epita-navy: #102d53;
+  --color-epita-blue: #1458a4;
+  --color-epita-yellow: #f4ce45;
+  --font-sans: Inter, system-ui, sans-serif;
+}

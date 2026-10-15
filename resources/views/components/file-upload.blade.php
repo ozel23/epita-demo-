@@ -1,0 +1,1 @@
+@props(['name'=>'file','label'=>'Foto bukti','required'=>true])<div class="file-upload"><label for="{{ $name }}" class="form-label">{{ $label }}</label><input type="file" id="{{ $name }}" name="{{ $name }}" class="form-control" accept="image/jpeg,image/png,image/webp" @if($required) required @endif><p class="field-help">JPG, PNG, WebP · maksimal 5 MB</p></div>

@@ -1,0 +1,14 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64
+    container_name: epita-sqlserver
+    restart: unless-stopped
+    env_file:
+      - .local/sqlsrv/server.env
+    ports:
+      - "127.0.0.1:1433:1433"
+    volumes:
+      - epita_sqlserver_data:/var/opt/mssql
+volumes:
+  epita_sqlserver_data:

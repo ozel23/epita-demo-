@@ -1,0 +1,28 @@
+{
+  "name": "epita-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "export": "expo export --platform android --platform ios",
+    "test": "node --test __tests__/*.test.mjs"
+  },
+  "dependencies": {
+    "expo": "~57.0.29",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "expo-sqlite": "~57.0.4",
+    "expo-secure-store": "~57.0.4",
+    "expo-crypto": "~57.0.4",
+    "expo-image-picker": "~57.0.20",
+    "expo-file-system": "~57.0.7",
+    "@react-native-community/netinfo": "12.0.1",
+    "@react-native-picker/picker": "2.11.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2"
+  }
+}

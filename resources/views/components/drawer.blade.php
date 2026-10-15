@@ -1,0 +1,1 @@
+@props(['id','title'])<aside id="{{ $id }}" class="app-drawer" aria-label="{{ $title }}" hidden><div class="dialog-header"><h2>{{ $title }}</h2><button type="button" class="icon-button" data-close-drawer aria-label="Tutup panel"><x-icon name="close"/></button></div>{{ $slot }}</aside>

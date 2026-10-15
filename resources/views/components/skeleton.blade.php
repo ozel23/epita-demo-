@@ -1,0 +1,1 @@
+<div {{ $attributes->merge(['class'=>'skeleton-block']) }}><span></span><span></span><span></span></div>

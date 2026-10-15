@@ -1,0 +1,1 @@
+module.exports={content:['./resources/js/**/*.{js,jsx}','./resources/views/app.blade.php'],theme:{extend:{colors:{epita:{navy:'#102d53',blue:'#1458a4',yellow:'#f4ce45'}},fontFamily:{sans:['Inter','system-ui','sans-serif']}}},plugins:[]};

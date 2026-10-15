@@ -1,0 +1,457 @@
+[
+  {
+    "buttonHeight": 48,
+    "inputHeight": 48,
+    "page": "login",
+    "scrollWidth": 360,
+    "width": 360
+  },
+  {
+    "buttonHeight": 48,
+    "inputHeight": 48,
+    "page": "login",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "buttonHeight": 48,
+    "inputHeight": 48,
+    "page": "login",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "buttonHeight": 48,
+    "inputHeight": 48,
+    "page": "login",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "buttonHeight": 48,
+    "inputHeight": 48,
+    "page": "login",
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "heading": "Selamat malam, Siti.",
+    "path": "/dashboard",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Selamat malam, Siti.",
+    "path": "/dashboard",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Selamat malam, Siti.",
+    "path": "/dashboard",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Selamat malam, Siti.",
+    "path": "/dashboard",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Selamat malam, Siti.",
+    "path": "/dashboard",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Laporan harian",
+    "path": "/daily-reports",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Laporan harian",
+    "path": "/daily-reports",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Laporan harian",
+    "path": "/daily-reports",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Laporan harian",
+    "path": "/daily-reports",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Laporan harian",
+    "path": "/daily-reports",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Catat aktivitas hari ini",
+    "path": "/daily-reports/create",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Catat aktivitas hari ini",
+    "path": "/daily-reports/create",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Catat aktivitas hari ini",
+    "path": "/daily-reports/create",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Catat aktivitas hari ini",
+    "path": "/daily-reports/create",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Catat aktivitas hari ini",
+    "path": "/daily-reports/create",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Work Order Maintenance",
+    "path": "/maintenance/work-orders",
+    "scrollWidth": 360,
+    "width": 360
+  },
+  {
+    "heading": "Work Order Maintenance",
+    "path": "/maintenance/work-orders",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "heading": "Work Order Maintenance",
+    "path": "/maintenance/work-orders",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "heading": "Work Order Maintenance",
+    "path": "/maintenance/work-orders",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "heading": "Work Order Maintenance",
+    "path": "/maintenance/work-orders",
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "heading": "Aktivitas Harian",
+    "path": "/reports",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Aktivitas Harian",
+    "path": "/reports",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Aktivitas Harian",
+    "path": "/reports",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Aktivitas Harian",
+    "path": "/reports",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Aktivitas Harian",
+    "path": "/reports",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Profil & keamanan",
+    "path": "/profile",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Profil & keamanan",
+    "path": "/profile",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "heading": "Profil & keamanan",
+    "path": "/profile",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "heading": "Profil & keamanan",
+    "path": "/profile",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "heading": "Profil & keamanan",
+    "path": "/profile",
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "heading": "Alat & Kendaraan",
+    "path": "/master/equipment",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Alat & Kendaraan",
+    "path": "/master/equipment",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Alat & Kendaraan",
+    "path": "/master/equipment",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Alat & Kendaraan",
+    "path": "/master/equipment",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Alat & Kendaraan",
+    "path": "/master/equipment",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Tambah Alat & Kendaraan",
+    "path": "/master/equipment/create",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Tambah Alat & Kendaraan",
+    "path": "/master/equipment/create",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Tambah Alat & Kendaraan",
+    "path": "/master/equipment/create",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Tambah Alat & Kendaraan",
+    "path": "/master/equipment/create",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Tambah Alat & Kendaraan",
+    "path": "/master/equipment/create",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Pengguna & akses",
+    "path": "/users",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Pengguna & akses",
+    "path": "/users",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Pengguna & akses",
+    "path": "/users",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Pengguna & akses",
+    "path": "/users",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Pengguna & akses",
+    "path": "/users",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Matriks peran & permission",
+    "path": "/roles",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Matriks peran & permission",
+    "path": "/roles",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Matriks peran & permission",
+    "path": "/roles",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Matriks peran & permission",
+    "path": "/roles",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Matriks peran & permission",
+    "path": "/roles",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Import SAP IW47",
+    "path": "/sap/imports",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Import SAP IW47",
+    "path": "/sap/imports",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "heading": "Import SAP IW47",
+    "path": "/sap/imports",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "heading": "Import SAP IW47",
+    "path": "/sap/imports",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "heading": "Import SAP IW47",
+    "path": "/sap/imports",
+    "scrollWidth": 1920,
+    "width": 1920
+  },
+  {
+    "heading": "Rekonsiliasi IW47",
+    "path": "/sap/reconciliation",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Rekonsiliasi IW47",
+    "path": "/sap/reconciliation",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Rekonsiliasi IW47",
+    "path": "/sap/reconciliation",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Rekonsiliasi IW47",
+    "path": "/sap/reconciliation",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Rekonsiliasi IW47",
+    "path": "/sap/reconciliation",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Audit log",
+    "path": "/audit-logs",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Audit log",
+    "path": "/audit-logs",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "heading": "Audit log",
+    "path": "/audit-logs",
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "heading": "Audit log",
+    "path": "/audit-logs",
+    "scrollWidth": 1351,
+    "width": 1366
+  },
+  {
+    "heading": "Audit log",
+    "path": "/audit-logs",
+    "scrollWidth": 1905,
+    "width": 1920
+  },
+  {
+    "heading": "Proses latar belakang",
+    "path": "/background-tasks",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "heading": "Proses latar belakang",
+    "path": "/background-tasks",
+    "scrollWidth": 768,
+    "width": 768
+  },
+  {
+    "heading": "Proses latar belakang",
+    "path": "/background-tasks",
+    "scrollWidth": 1024,
+    "width": 1024
+  },
+  {
+    "heading": "Proses latar belakang",
+    "path": "/background-tasks",
+    "scrollWidth": 1366,
+    "width": 1366
+  },
+  {
+    "heading": "Proses latar belakang",
+    "path": "/background-tasks",
+    "scrollWidth": 1920,
+    "width": 1920
+  }
+]

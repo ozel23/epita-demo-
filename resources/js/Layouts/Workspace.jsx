@@ -1,0 +1,19 @@
+import React,{useState,useEffect,useRef} from 'react';
+import Icon,{Emblem} from '../Components/Icon';
+import {Link,usePage,router} from '@inertiajs/react';
+const menu=[['Dashboard','/dashboard',[]],['Rencana Kerja','/work-plans',['assignment.manage','report.export']],['Penugasan','/assignments',[]],['Laporan Harian','/daily-reports',[]],['Persetujuan','/approvals',['daily-report.verify','daily-report.approve']],['Laporan Breakdown','/breakdowns',['breakdown.create','maintenance.manage','report.export']],['Work Order','/maintenance/work-orders',['maintenance.manage','maintenance.close','report.export']],['Import IW47','/sap/imports',['sap.import']],['Rekonsiliasi','/sap/reconciliation',['sap.reconcile']],['Laporan & Ekspor','/reports',['report.export']],['Master Data','/master/equipment',['equipment.view']],['Pengguna & Akses','/users',['user.manage']],['Audit Log','/audit-logs',['audit.view']],['Proses Latar Belakang','/background-tasks',[]]];
+export default function Workspace({children,title}){
+ const {auth,flash}=usePage().props;
+ const [open,setOpen]=useState(false);
+ const [collapsed,setCollapsed]=useState(()=>localStorage.getItem('epita-sidebar-collapsed')==='1');
+ const nav=useRef();const toggle=useRef();const {url}=usePage();
+ useEffect(()=>{localStorage.setItem('epita-sidebar-collapsed',collapsed?'1':'0')},[collapsed]);
+ useEffect(()=>{if(!open)return;nav.current?.querySelector('a')?.focus();const handler=e=>{if(e.key==='Escape'){setOpen(false);toggle.current?.focus()}if(e.key==='Tab'){const links=nav.current.querySelectorAll('a');const first=links[0],last=links[links.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}};document.addEventListener('keydown',handler);return()=>document.removeEventListener('keydown',handler)},[open]);
+ function toggleNavigation(){if(matchMedia('(min-width:901px)').matches)setCollapsed(!collapsed);else setOpen(!open)}
+ return <div className={`workspace min-h-screen font-sans ${collapsed?'collapsed':''}`}><a className="skip" href="#main-content">Lewati ke konten</a>
+  <aside ref={nav} className={open?'open':''}><Link className="brand" href="/dashboard"><span className="emblem"><Emblem/></span><span className="menu-label"> EPITA</span></Link><p className="menu-label">Operations Workspace</p>
+   <nav aria-label="Navigasi utama">{menu.filter(([, ,perms])=>!perms.length||perms.some(p=>auth.permissions.includes(p))).map(([name,href],i)=><Link key={href} title={name} className={url.split('?')[0]===href?'selected':''} href={href} onClick={()=>setOpen(false)}><span className="menu-icon"><Icon name={href==='/dashboard'?'dashboard':href.includes('maintenance')?'wrench':href.includes('master')?'database':href.includes('users')?'users':href.includes('reports')?'file':href.includes('approvals')?'check':href.includes('breakdowns')?'alert':'calendar'}/></span><span className="menu-label">{name}</span></Link>)}</nav><small className="menu-label">Asia/Jakarta · WIB</small>
+  </aside>{open&&<button className="backdrop" aria-label="Tutup navigasi" onClick={()=>setOpen(false)}/>}
+  <div className="content"><header><button ref={toggle} className="nav-toggle secondary" aria-label="Buka navigasi" aria-expanded={open} onClick={toggleNavigation}>☰</button><span className="header-title">{title||'Workspace'}</span><div className="profile"><Link href="/select-plant">{auth.plants.find(p=>p.id===auth.activePlant)?.code||'Semua plant'}</Link><Link href="/notifications">Notifikasi</Link><Link href="/profile">{auth.user.name}</Link><button className="secondary" onClick={()=>router.post('/logout')}>Keluar</button></div></header><main id="main-content" className="w-full">{flash?.success&&<div role="status" className="alert">{flash.success}</div>}{children}</main><footer>EPITA · Sistem Operasional Alat & VRA</footer></div>
+ </div>;
+}

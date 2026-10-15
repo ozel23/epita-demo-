@@ -1,0 +1,352 @@
+[
+  {
+    "path": "/dashboard",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Selamat datang, Siti. · EPITA"
+  },
+  {
+    "path": "/dashboard",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Selamat datang, Siti. · EPITA"
+  },
+  {
+    "path": "/dashboard",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Selamat datang, Siti. · EPITA"
+  },
+  {
+    "path": "/dashboard",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Selamat datang, Siti. · EPITA"
+  },
+  {
+    "path": "/dashboard",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Selamat datang, Siti. · EPITA"
+  },
+  {
+    "path": "/daily-reports",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports/create",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Buat laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports/create",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Buat laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports/create",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Buat laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports/create",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Buat laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports/create",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Buat laporan harian · EPITA"
+  },
+  {
+    "path": "/daily-reports/29",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "OP-20261014-40940B46 · EPITA"
+  },
+  {
+    "path": "/daily-reports/29",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "OP-20261014-40940B46 · EPITA"
+  },
+  {
+    "path": "/daily-reports/29",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "OP-20261014-40940B46 · EPITA"
+  },
+  {
+    "path": "/daily-reports/29",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "OP-20261014-40940B46 · EPITA"
+  },
+  {
+    "path": "/daily-reports/29",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "OP-20261014-40940B46 · EPITA"
+  },
+  {
+    "path": "/work-plans",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Rencana kerja · EPITA"
+  },
+  {
+    "path": "/work-plans",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Rencana kerja · EPITA"
+  },
+  {
+    "path": "/work-plans",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Rencana kerja · EPITA"
+  },
+  {
+    "path": "/work-plans",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Rencana kerja · EPITA"
+  },
+  {
+    "path": "/work-plans",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Rencana kerja · EPITA"
+  },
+  {
+    "path": "/assignments",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Penugasan · EPITA"
+  },
+  {
+    "path": "/assignments",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Penugasan · EPITA"
+  },
+  {
+    "path": "/assignments",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Penugasan · EPITA"
+  },
+  {
+    "path": "/assignments",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Penugasan · EPITA"
+  },
+  {
+    "path": "/assignments",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Penugasan · EPITA"
+  },
+  {
+    "path": "/breakdowns",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan breakdown · EPITA"
+  },
+  {
+    "path": "/breakdowns",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan breakdown · EPITA"
+  },
+  {
+    "path": "/breakdowns",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan breakdown · EPITA"
+  },
+  {
+    "path": "/breakdowns",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan breakdown · EPITA"
+  },
+  {
+    "path": "/breakdowns",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Laporan breakdown · EPITA"
+  },
+  {
+    "path": "/master/equipment",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Alat & Kendaraan · EPITA"
+  },
+  {
+    "path": "/master/equipment",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Alat & Kendaraan · EPITA"
+  },
+  {
+    "path": "/master/equipment",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Alat & Kendaraan · EPITA"
+  },
+  {
+    "path": "/master/equipment",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Alat & Kendaraan · EPITA"
+  },
+  {
+    "path": "/master/equipment",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Alat & Kendaraan · EPITA"
+  },
+  {
+    "path": "/reports/daily",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Aktivitas Harian · EPITA"
+  },
+  {
+    "path": "/reports/daily",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Aktivitas Harian · EPITA"
+  },
+  {
+    "path": "/reports/daily",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Aktivitas Harian · EPITA"
+  },
+  {
+    "path": "/reports/daily",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Aktivitas Harian · EPITA"
+  },
+  {
+    "path": "/reports/daily",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Aktivitas Harian · EPITA"
+  },
+  {
+    "path": "/profile",
+    "width": 360,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Profil · EPITA"
+  },
+  {
+    "path": "/profile",
+    "width": 768,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Profil · EPITA"
+  },
+  {
+    "path": "/profile",
+    "width": 1024,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Profil · EPITA"
+  },
+  {
+    "path": "/profile",
+    "width": 1366,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Profil · EPITA"
+  },
+  {
+    "path": "/profile",
+    "width": 1920,
+    "hasMain": true,
+    "overflow": false,
+    "title": "Profil · EPITA"
+  }
+]

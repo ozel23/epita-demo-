@@ -1,0 +1,4 @@
+#!/bin/sh
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$ROOT" || exit 1
+exec "$ROOT/scripts/php74-sqlsrv" -S 127.0.0.1:8080 -t "$ROOT/public" "$ROOT/server.php"

@@ -1,0 +1,25 @@
+
+> epita-mobile@1.0.0 export
+> expo export --platform android --platform ios
+
+Starting Metro Bundler
+
+| (node:59170) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:59170) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:59170) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Android Bundled 2657ms node_modules/expo/AppEntry.js (648 modules)
+iOS Bundled 4434ms node_modules/expo/AppEntry.js (653 modules)
+
+› android bundles (1):
+_expo/static/js/android/AppEntry-49fe92b3131e59c7936c48fb3da6c22d.hbc (1.7MB)
+
+› ios bundles (1):
+_expo/static/js/ios/AppEntry-7c1a7e0a5bba594b6032a7974fa7715d.hbc (1.7MB)
+
+› Files (1):
+metadata.json (250B)
+
+Exported: dist

@@ -1,0 +1,10 @@
+#!/bin/sh
+# Run PHP 7.4 without changing the machine-wide default.
+if [ -x /opt/homebrew/opt/php@7.4/bin/php ]; then
+  exec /opt/homebrew/opt/php@7.4/bin/php "$@"
+fi
+if php -r 'exit(PHP_VERSION_ID >= 70400 && PHP_VERSION_ID < 80000 ? 0 : 1);'; then
+  exec php "$@"
+fi
+printf '%s\n' 'PHP 7.4 is required. Install PHP 7.4 or use its absolute binary path.' >&2
+exit 1

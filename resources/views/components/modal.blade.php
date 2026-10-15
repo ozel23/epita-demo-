@@ -1,0 +1,1 @@
+@props(['id','title'])<dialog id="{{ $id }}" class="app-dialog" aria-labelledby="{{ $id }}-title"><div class="dialog-header"><h2 id="{{ $id }}-title">{{ $title }}</h2><button type="button" class="icon-button" data-close-dialog aria-label="Tutup dialog"><x-icon name="close"/></button></div>{{ $slot }}</dialog>

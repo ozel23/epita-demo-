@@ -1,0 +1,1 @@
+@props(['status'])<span {{ $attributes->merge(['class'=>'status status-'.$status]) }}><span class="status-dot" aria-hidden="true"></span>{{ $slot->isEmpty()?str_replace('_',' ',$status):$slot }}</span>

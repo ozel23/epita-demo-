@@ -1,0 +1,1 @@
+@props(['title'])<nav class="app-breadcrumb" aria-label="Breadcrumb"><a href="/dashboard">Workspace</a><x-icon name="chevron"/><span aria-current="page">{{ $title }}</span></nav>

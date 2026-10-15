@@ -1,0 +1,5 @@
+import React,{useEffect,useRef,useState} from 'react';
+import {Head,Link,usePage,useForm,router} from '@inertiajs/react';
+import {Card,Table,Form,Action,Badge,Stat,number,label,display} from '../Components/UI';
+import {Page,field,pick,list} from './Shared';
+export function ReportPage({records,headers,title,type,filters,options,summaries}){const {auth,reportTypes}=usePage().props;const query=new URLSearchParams(filters).toString();return <Page title={title}><div className="tabs">{Object.entries(reportTypes).map(([k,v])=><Link href={`/reports/${k}`} key={k}>{v}</Link>)}</div><Card><Form action={`/reports/${type}`} method="get" initial={filters} fields={[field('from','date'),field('to','date'),pick('plant_id',auth.plants),pick('equipment_id',options.equipment||[]),field('status')]} submit="Terapkan filter"/><div className="actions">{['xlsx','csv','pdf'].map(f=><a className="button" key={f} href={`/reports/${type}?${query}&format=${f}`}>Export {f.toUpperCase()}</a>)}</div><Table records={records} columns={headers.map(key=>({key}))}/>{summaries?.map((s,i)=><p key={i}>{s.label}: {JSON.stringify(s)}</p>)}</Card></Page>}

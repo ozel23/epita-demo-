@@ -1,0 +1,6 @@
+#!/bin/sh
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+export DYLD_LIBRARY_PATH="/opt/homebrew/opt/openssl@3/lib${DYLD_LIBRARY_PATH:+:$DYLD_LIBRARY_PATH}"
+export ODBCSYSINI="$ROOT/.local/sqlsrv"
+export PHP_INI_SCAN_DIR="/opt/homebrew/etc/php/7.4/conf.d:$ROOT/.local/sqlsrv/ini"
+exec /opt/homebrew/opt/php@7.4/bin/php "$@"

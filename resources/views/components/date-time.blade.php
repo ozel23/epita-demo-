@@ -1,0 +1,1 @@
+@props(['name','label','value'=>'','type'=>'date'])<x-input :name="$name" :label="$label" :value="$value" :type="$type" {{ $attributes }}/>

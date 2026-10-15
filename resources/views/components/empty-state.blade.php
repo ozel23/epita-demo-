@@ -1,0 +1,1 @@
+@props(['icon'=>'file','title'=>'Belum ada data','description'=>'Data akan muncul setelah transaksi tersedia.'])<div {{ $attributes->merge(['class'=>'empty-state']) }}><span class="empty-state-icon"><x-icon :name="$icon"/></span><strong>{{ $title }}</strong><p>{{ $description }}</p>{{ $slot }}</div>
